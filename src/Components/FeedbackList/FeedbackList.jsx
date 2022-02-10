@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import { useLayoutEffect } from "react";
 import s from "./FeedbackList.module.css";
 
 const FeedbackList = ({ onLeaveFeedback, options }) => {
@@ -30,7 +29,6 @@ FeedbackList.propTypes = {
   options: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
     })
   ),
   onLeaveFeedback: PropTypes.func.isRequired,
