@@ -1,0 +1,17 @@
+.list {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  padding: 5px;
+  border-radius: 10%;
+  background-color: aqua;
+}
+.btn:hover {
+  background-color: blue;
+  color: white;
+}
